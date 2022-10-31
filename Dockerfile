@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM node:14
 WORKDIR /appnodejs
 ADD . /appnodejs
 RUN npm install
